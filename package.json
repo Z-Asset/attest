@@ -1,0 +1,64 @@
+{
+  "name": "@zasset/attest",
+  "version": "0.1.0",
+  "description": "训练鉴证（Attest）：把可移动三件套的异地标准化训练钉成可复算、可归因、可审计的裁决链。四道闸硬拦——半拉子刷新、账物不符、判不了当通过、污染母本。Ships one skill.",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "plugins",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "yaml": "^2.6.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1-rc.1",
+    "@deepseek-ai/dsh-skill": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1-rc.1",
+    "@deepseek-ai/dsh-skill": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "training",
+    "attestation",
+    "audit",
+    "reproducibility",
+    "asset-pricing",
+    "skills"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Z Asset",
+    "email": "x@zasset.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z-Asset/attest.git"
+  },
+  "homepage": "https://github.com/Z-Asset/attest"
+}

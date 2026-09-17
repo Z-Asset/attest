@@ -1,0 +1,9 @@
+node_modules/
+lib/
+__pycache__/
+*.pyc
+*.pyo
+.npm/
+*.tgz
+.DS_Store
+_pt_work/

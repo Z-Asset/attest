@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "zasset",
+  "description": "Z Asset 内部插件：把 Z 母本的可移动三件套发到异地机器做标准化训练与评估，并把 D 六件套导出的三件套映射回 Z 的常驻闸。",
+  "owner": {
+    "name": "Z Asset",
+    "email": "x@zasset.cn"
+  },
+  "plugins": [
+    {
+      "name": "attest",
+      "description": "训练鉴证（Attest）：把 Z 母本三件套的异地标准化训练钉成可复算、可归因、可审计的裁决链。打包发异地、体检、冒烟、周训、评估裁决、回传；本机侧锚点闸防半拉子刷新、sha1 逐件账物对账，四类事故硬拦（半拉子刷新 / 账物不符 / 判不了当通过 / 污染母本），上线由人独断。",
+      "author": {
+        "name": "Z Asset",
+        "email": "x@zasset.cn"
+      },
+      "source": "./plugins/attest",
+      "category": "workflow"
+    }
+  ]
+}

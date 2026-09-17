@@ -1,0 +1,8 @@
+# attest bundle layer.
+# Inserts one Cordis plugin row into the profile:
+#   id   = Cordis plugin id (matches src/index.ts export const name)
+#   name = npm package name (dsh resolves it through the profile's installed packages)
+# Activated by: dsh plugin --profile <name> add @zasset/attest
+- insert:
+    - id: attest
+      name: '@zasset/attest'

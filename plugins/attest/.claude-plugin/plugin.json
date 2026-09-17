@@ -1,0 +1,9 @@
+{
+  "name": "attest",
+  "description": "训练鉴证：把异地标准化训练跑成可复算、可归因、可审计的裁决。四道闸硬拦——半拉子刷新、账物不符、判不了当通过、污染母本；上线由人独断。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Z Asset",
+    "email": "x@zasset.cn"
+  }
+}
