@@ -31,7 +31,7 @@ attest 不训练模型、不改一行策略代码。它做的事,是让一次训
 ## 安装
 
 ```bash
-dsh plugin --profile <name> add @zasset/attest
+dsh plugin --profile <name> add @z-asset/attest
 ```
 
 ## 用法

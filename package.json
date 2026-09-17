@@ -1,5 +1,5 @@
 {
-  "name": "@zasset/attest",
+  "name": "@z-asset/attest",
   "version": "0.1.0",
   "description": "训练鉴证（Attest）：把可移动三件套的异地标准化训练钉成可复算、可归因、可审计的裁决链。四道闸硬拦——半拉子刷新、账物不符、判不了当通过、污染母本。Ships one skill.",
   "type": "module",

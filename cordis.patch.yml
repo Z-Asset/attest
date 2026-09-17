@@ -5,4 +5,4 @@
 # Activated by: dsh plugin --profile <name> add @zasset/attest
 - insert:
     - id: attest
-      name: '@zasset/attest'
+      name: '@z-asset/attest'
