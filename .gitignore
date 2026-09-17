@@ -5,5 +5,6 @@ __pycache__/
 *.pyo
 .npm/
 *.tgz
+.npmrc
 .DS_Store
 _pt_work/
